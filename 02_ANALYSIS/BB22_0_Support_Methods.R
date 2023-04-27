@@ -23,10 +23,10 @@ library(ggplot2)
 library(ggpubr)
 
 # set working directory to main repository
-input <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/01_DATA"
-output <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/03_OUTPUT"
-
+input <- "YOUR PATH/Bumblebee_Simonetta_final/01_DATA" #change „YOUR PATH“ to where the repo is
+output <- "YOUR PATH/Bumblebee_Simonetta_final/03_OUTPUT" #change „YOUR PATH“ to where the repo is
 setwd(input)
+
 
 # load data
 BB22.habitat <- read_csv("habitat maps/BB22_habitat_buffer.csv") %>%
@@ -75,11 +75,11 @@ library(ggplot2)
 library(ggpubr)
 
 # set working directory to main repository
-input <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/01_DATA"
-output <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/03_OUTPUT"
+input <- "YOUR PATH/Bumblebee_Simonetta_final/01_DATA" #change „YOUR PATH“ to where the repo is
+output <- "YOUR PATH/Bumblebee_Simonetta_final/03_OUTPUT" #change „YOUR PATH“ to where the repo is
+setwd(input)
 
 # load data
-setwd(input) # set working directory
 BB22.full <- read_csv("BB22_full.csv") # import data set with
 
 # most abundant plants species to justify use of sugar data

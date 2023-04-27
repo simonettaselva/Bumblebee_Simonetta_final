@@ -30,11 +30,11 @@ library(V.PhyloMaker2)
 library(ape)
 
 # set working directory to main repository
-input <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/01_DATA"
-output <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/03_OUTPUT"
+input <- "YOUR PATH/Bumblebee_Simonetta_final/01_DATA" #change „YOUR PATH“ to where the repo is
+output <- "YOUR PATH/Bumblebee_Simonetta_final/03_OUTPUT" #change „YOUR PATH“ to where the repo is
+setwd(input)
 
 # load data
-setwd(input) # set working directory
 BB22.full <- read_csv("BB22_full.csv") # import data set with
 
 # initialize region as column
@@ -126,11 +126,11 @@ library(ggplot2)
 library(ggpubr)
 
 # set working directory to main repository
-input <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/01_DATA"
-output <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/03_OUTPUT"
+input <- "YOUR PATH/Bumblebee_Simonetta_final/01_DATA" #change „YOUR PATH“ to where the repo is
+output <- "YOUR PATH/Bumblebee_Simonetta_final/03_OUTPUT" #change „YOUR PATH“ to where the repo is
+setwd(input)
 
 # load data
-setwd(input) # set working directory
 BB22.full <- read_csv("BB22_full.csv") # import data set
 
 # initialize region as column
@@ -335,9 +335,8 @@ library(ggpubr)
 library(insight)
 
 # set working directory to main repository
-input <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/01_DATA"
-output <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/03_OUTPUT"
-
+input <- "YOUR PATH/Bumblebee_Simonetta_final/01_DATA" #change „YOUR PATH“ to where the repo is
+output <- "YOUR PATH/Bumblebee_Simonetta_final/03_OUTPUT" #change „YOUR PATH“ to where the repo is
 setwd(input)
 
 # import data (added row with information on family)
@@ -415,9 +414,8 @@ library(ggplot2)
 library(ggpubr)
 
 # set working directory to main repository
-input <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/01_DATA"
-output <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/03_OUTPUT"
-
+input <- "YOUR PATH/Bumblebee_Simonetta_final/01_DATA" #change „YOUR PATH“ to where the repo is
+output <- "YOUR PATH/Bumblebee_Simonetta_final/03_OUTPUT" #change „YOUR PATH“ to where the repo is
 setwd(input)
 
 ## analysis ----
@@ -534,8 +532,8 @@ library(ggplot2)
 library(ggpubr)
 
 # set working directory to main repository
-input <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/01_DATA"
-output <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/03_OUTPUT"
+input <- "YOUR PATH/Bumblebee_Simonetta_final/01_DATA" #change „YOUR PATH“ to where the repo is
+output <- "YOUR PATH/Bumblebee_Simonetta_final/03_OUTPUT" #change „YOUR PATH“ to where the repo is
 setwd(input)
 
 # load data
@@ -963,11 +961,11 @@ library(glmmTMB)
 library(DHARMa)
 
 # set working directory to main repository
-input <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/01_DATA"
-output <- "~/Library/CloudStorage/GoogleDrive-simo1996s@gmail.com/My Drive/ETH/Master Thesis/bumblebee_try/03_OUTPUT"
+input <- "YOUR PATH/Bumblebee_Simonetta_final/01_DATA" #change „YOUR PATH“ to where the repo is
+output <- "YOUR PATH/Bumblebee_Simonetta_final/03_OUTPUT" #change „YOUR PATH“ to where the repo is
+setwd(input)
 
 # load data
-setwd(input)
 BB22.bb.traits <- read_csv("BB22_traits.csv")
 
 ## combined species ----
